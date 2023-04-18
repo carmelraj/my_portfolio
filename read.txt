@@ -1,0 +1,37 @@
+Links:
+http://localhost:3000/
+http://localhost:3000/about
+http://localhost:3000/my-project
+http://localhost:3000/contact-us
+http://localhost:3000/customer
+http://localhost:3000/admin-home
+
+Credentials:
+Admin:
+username : carmel	
+password : 123456
+
+User:
+username : rajesh
+password : 123456
+
+Supplier
+username : sam
+password : 123456
+
+
+- Developed ui with ReactJS and backend used JSON Server
+- Used Bcrypt for password encryptions
+- User can create it
+- Axions is used for get, put and delete
+- useQuery also used
+- UI is builed using different components in reactjs
+- React circular progress bar is used to show the percentage of skills
+- jsPDF is used to download table into PDF formate
+- Used react done, route and tost to show warning and error messages
+- React star rating are used in testimonial
+- The data is dynamic and it fetch it from JSON server
+- Diferent forms are created in login,register,contactus pages along with validation
+- Once contact details are filled it will re-direct to thnk you page
+- username and roles are store in session storage and it is getting cleared when we click logout or close the browser
+- If the user logs for the first time he will get a alert message popup only once
