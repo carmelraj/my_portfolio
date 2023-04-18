@@ -5,18 +5,9 @@ import {  CircularProgressbar,buildStyles } from "react-circular-progressbar";
 import "react-circular-progressbar/dist/styles.css";
 import { GetSkills } from '../dataHandling';
 const Skill = () => {
-  const onSuccess = (data) =>{
-    console('Success',data);
-  }
-
-  const onError = (error) =>{
-      console.log(error);
-  }  
+  
   const {data, isLoading, isFetching} = GetSkills(onError, onSuccess)
 
-  if(isLoading || isFetching){
-    return <p className='spinner'>Loading...</p>
-  }
 
   return(
   <section className="skill dark-bg d-flex d-flex-column section relative">    
