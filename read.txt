@@ -35,3 +35,10 @@ password : 123456
 - Once contact details are filled it will re-direct to thnk you page
 - username and roles are store in session storage and it is getting cleared when we click logout or close the browser
 - If the user logs for the first time he will get a alert message popup only once
+
+Note:
+- In customer page based on the roles table and edit,delete is applied. 
+- Only Admin can create new records, edit and delete it.
+- Only user can edit it
+- Only supplier can view the tables
+- Admin has home page where only he can edit the aboutme content. Once he change the about us text it will immediatedly refect in browser.
