@@ -1,0 +1,10 @@
+@import '../../scss/variable.scss';
+.contactUs {
+    form{
+        width: 500px;
+        display: flex;
+        height: 500px;
+        flex-direction: column;
+        align-self: center;
+    }
+}

@@ -1,0 +1,88 @@
+@import '../../scss/variable.scss';
+.customer {
+    background: $white;
+    height: 100vh;
+    color: $black;
+    display: flex;
+    justify-content: center;
+    .removeBtn{
+        background: $error;
+    }
+    .add,.download{
+        width: 100px; padding: 5px 0;
+        &:hover,&:focus{
+            width: 100px;
+        }
+    }
+    button{
+        width: auto; padding: 5px; margin-bottom: 15px;
+        &:hover,&:focus{
+            width: auto;
+        }
+    }
+    .table{        
+        margin: 100px 0 0 0;
+        button{
+            padding: 5px; margin: 10px 0 10px 0;
+            &:hover,&:focus{
+                padding: 5px; 
+                margin: 10px 0 10px 0;
+            }
+        }
+    }
+    .modal{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: gray;
+        z-index: 999;
+        form{
+            background: $white;
+            width: 500px;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 50px 20px 20px 20px;
+            border-radius: $radius5;
+            input{
+                margin-bottom: 20px;
+                height: 50px;
+            }
+            h2{
+                padding: 0 0 40px 0;
+            }
+            a{
+                position: absolute;
+                top: 10px;
+                right: 10px;
+                font-size: $fontSize30;
+                background: $green;
+                border-radius: 50px;
+                width: 20px;
+                height: 20px;
+                padding: 5px;
+                text-align: center;
+                color: $white;
+            }
+        }
+        .cancelModal{
+            width: auto;
+            height: auto;
+            background: transparent;
+            border: 0;
+            color: #000;
+            position: relative;
+            font-size: 16px;
+            padding: 5px;
+            vertical-align: top;
+        }
+    }
+    .search{
+        width: 200px;
+    margin-right: 10px;
+    margin-top: 9px;
+    }
+}

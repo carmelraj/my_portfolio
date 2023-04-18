@@ -1,0 +1,39 @@
+@import '../../scss/variable.scss';
+.resume {
+    .project-desc{
+        text-align: left;
+        padding: 0 40px 40px 40px;
+        h3{
+            font-size: $fontSize30;
+            color: $background;   
+            padding: 40px 0 0 0;
+        }
+        h4{
+            color: $background;   
+            padding: 10px 0 0 0;
+        }
+        h6{
+            color: $background;   
+            font-size: $fontSize15;
+            padding: 10px 0 10px 0;
+        }
+        li{
+            color: $background;   
+            text-align: left;
+            width: 100%;
+            list-style-type: disc;
+            padding: 0 0 10px 0;                
+        }
+        p{
+            line-height: 25px;
+            padding: 10px 0 0 0;
+            color: $background;
+            text-align: left;
+            width: 100%;
+        }
+           small{
+                color: $gray;
+                font-size: $fontSize12;
+            }
+    }
+}

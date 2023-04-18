@@ -1,0 +1,321 @@
+{
+  "skills": [
+    {
+      "id": 1,
+      "name": "ReactJS",
+      "percentage": 70
+    },
+    {
+      "id": 2,
+      "name": "Angular",
+      "percentage": 50
+    },
+    {
+      "id": 3,
+      "name": "JavaScript",
+      "percentage": 70
+    },
+    {
+      "id": 4,
+      "name": "JQuery",
+      "percentage": 60
+    }
+  ],
+  "comments": [
+    {
+      "id": 1,
+      "body": "some comment",
+      "postId": 1
+    }
+  ],
+  "profile": {
+    "name": "typicode"
+  },
+  "users": [
+    {
+      "firstName": "carmelraj",
+      "lastName": "francis anthony",
+      "dob": "2023-04-09T17:37:18.734Z",
+      "username": "carmel",
+      "gender": "male",
+      "password": "$2a$10$/EZEfu.rQmPYcKn1mwXOi.jSGvUTCwK4jULnVZNAUOsWIsESHwrF2",
+      "country": "India",
+      "state": "tamil nadu",
+      "zipCode": "642004",
+      "mobile": "8904814992",
+      "email": "carmelraj601@gmail.com",
+      "address": "11, selamuthu nagar,zamin thukuli, pollachi",
+      "createdAt": "2023-04-09T17:39:44.587Z",
+      "role": "admin",
+      "id": 1
+    },
+    {
+      "firstName": "rajesh",
+      "lastName": "kumar",
+      "dob": "2023-04-09T19:32:26.231Z",
+      "username": "rajesh",
+      "gender": "male",
+      "password": "$2a$10$uVeRi3SnYkEpK3bvwYGnO.2QsR3UW2B7ZM/AF6QkQ8U/0kf4XMjgC",
+      "country": "India",
+      "state": "tamil nadu",
+      "zipCode": "642004",
+      "mobile": "8904814992",
+      "email": "rajesh@gmail.com",
+      "address": "11, selamuthu nagar,zamin thukuli, pollachi",
+      "createdAt": "2023-04-09T19:33:03.009Z",
+      "role": "user",
+      "id": 2
+    },
+    {
+      "firstName": "sam",
+      "lastName": "johnsen",
+      "dob": "2023-04-11T15:18:53.774Z",
+      "username": "sam",
+      "gender": "male",
+      "password": "$2a$10$Gwm59AHEAqnA6i74s56knuo3/4g/RC7it9FxG77WX5JH5gEQsJENq",
+      "country": "India",
+      "state": "tamil nadu",
+      "zipCode": "642004",
+      "mobile": "8904814992",
+      "email": "sam@gmail.com",
+      "address": "coimbatore, karumathampatti, tamil nadu",
+      "createdAt": "2023-04-11T15:19:41.465Z",
+      "role": "supplier",
+      "id": 3
+    }
+  ],
+  "customer": [
+    {
+      "id": 1,
+      "name": "Leanne Graham",
+      "email": "Sincere@april.biz",
+      "zipcode": "92998-3874"
+    },
+    {
+      "id": 2,
+      "name": "Ervin Howell",
+      "email": "Shanna@melissa.tv",
+      "zipcode": "90566-7771"
+    },
+    {
+      "id": 3,
+      "name": "Clementine Bauch",
+      "email": "Nathan@april.biz",
+      "zipcode": "59590-4157"
+    },
+    {
+      "id": 4,
+      "name": "Karianne",
+      "email": "Karianne@april.biz",
+      "zipcode": "53919-4257"
+    },
+    {
+      "name": "jack",
+      "email": "jack@gmail.com",
+      "zipcode": "53919-0101",
+      "id": 5
+    },
+    {
+      "name": "john",
+      "email": "john@gmail.com",
+      "zipcode": "56899-5555",
+      "id": 6
+    }
+  ],
+  "slider": [
+    {
+      "src": "./images/banner1.jpg",
+      "desc": "Recotap is an AI-driven Account-Based Marketing (ABM) platform that helps B2B Marketers run targeted ABM campaigns, at scale.",
+      "siteSame": "Recotap",
+      "link": "https://www.recotap.com",
+      "title": "Recotap"
+    },
+    {
+      "src": "./images/banner2.jpg",
+      "desc": "Powered by first party shopper behavioral data and advanced AI technology, it’s the digital engagement platform for next-generation vehicle retailing and it’s available today",
+      "siteSame": "Impel",
+      "link": "https://impel.io",
+      "title": "Impel"
+    },
+    {
+      "src": "./images/banner3.jpg",
+      "desc": "The app used by tens of thousands to relieve consistent pain. Try Curable for Free. Therapy by pain scientists and patients. Your road to relief starts today. 70% say symptoms reduced.',siteSame:'Curable",
+      "link": "https://curable.care",
+      "title": "Curable"
+    },
+    {
+      "src": "./images/banner4.jpeg",
+      "desc": "Biolage is recognized worldwide as a leader in the professional hair care field, and that reputation continues to grow.",
+      "siteSame": "Biolage",
+      "link": "https://www.biolage.com",
+      "title": "Biolage"
+    },
+    {
+      "src": "./images/banner5.jpeg",
+      "desc": "When the Group was formed in 2009 it brought together many well-known brands including Lloyds, Halifax, Bank of Scotland and Scottish Widows – with a combined history stretching back more than 300 years",
+      "siteSame": "Lloydsbankinggroup",
+      "link": "https://www.lloydsbankinggroup.com",
+      "title": "Lloydsbankinggroup"
+    }
+  ],
+  "testtimonial": [
+    {
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur laudantium animi corrupti et sapiente id, tempora totam laboriosam odit doloribus eius rerum nemo quisquam voluptas quibusdam deleniti nesciunt, alias quaerat!",
+      "name": "John Kennday",
+      "designation": "Business Manager CEO"
+    },
+    {
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur laudantium animi corrupti et sapiente id, tempora totam laboriosam odit doloribus eius rerum nemo quisquam voluptas quibusdam deleniti nesciunt, alias quaerat!",
+      "name": "Sam Ethan",
+      "designation": "Business Manager CEO"
+    },
+    {
+      "text": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Pariatur laudantium animi corrupti et sapiente id, tempora totam laboriosam odit doloribus eius rerum nemo quisquam voluptas quibusdam deleniti nesciunt, alias quaerat!",
+      "name": "Amelia",
+      "designation": "Business Manager CEO"
+    }
+  ],
+  "aboutus": [
+    {
+      "text": "Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore.\n\nLorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid.\n\nrem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Doloremque, ex ducimus culpa, voluptatem temporibus ullam quaerat quam aperiam numquam quas labore pariatur suscipit adipisci quia perspiciatis eum soluta, unde aliquid.",
+      "id":1
+    }    
+  ],
+  "myProject": [
+    {
+      "companyName": "Wipro",
+      "designation": "Senior UI Developer",
+      "info": "Lloyds Banking Group is a British financial institution. It is one of the UK’s largest financial service organizations with 30 million customers.",
+      "keySkills": "React JS, JavaScript, JQuery, HTML5, CSS",
+      "desc": [
+        "Developed a Help Panel modal which will display help text which is related to the webpages Example: User Create, Payment etc",
+        "Help Text loads dynamically on click of Help Panel. Whenever Help Panel opens SDK script is added dynamically and it is removed on close of the modal. All links gets white listed to avoid CORS Errors",
+        "Dynamic tooltip and links are created on click of it loads text dynamically. Components are created for tooltip and Help Panel.",
+        "User can download e-statement for their account in PDF format.",
+        "Performing bug fix and code reviews."
+      ]
+    },
+    {
+      "companyName": "Recotap",
+      "designation": "Senior UI Developer",
+      "info": "Recotap is a B2B Marketing platform built to execute Targeted Account Based Marketing campaigns, at scale.",
+      "keySkills": "Angular, Javascript,Jquery, HTML5, SCSS",
+      "desc": [
+        "Built the entire Recotap platform in Angular using Bootstrap, Flexbox, JQuery and SCSS while handling cross browser / platform compatibility issues",
+        "Optimized the User Experience by implementing different design patterns by designing custom UI Elements and Layouts as per the requirements",
+        "mplemented a dynamic UI Design Platform to modify an image and converted the designs created in Miro, PSD to Actionable UI Interface",
+        "Mentored many interns in my team by giving them KT on trending design patterns and making them use of it in the new requirements without losing the design neutrality",
+        "Right to Left and Left to right multi-lingual implementation relevant to the specific markets.",
+        "Used Gitlab for version control and JIRA for defect tracking"
+      ]
+    },
+    {
+      "companyName": "Technova",
+      "designation": "Senior UI Developer",
+      "info": "TechNova is one of the world's largest suppliers of print solutions like Newspaper Printing, Publishing, Packaging, Signage, Photo, Textile, Engineering & Medical Imaging.",
+      "keySkills": "Angular, JavaScript, JQuery, HTML5, SCSS",
+      "desc": [
+        "Involved in designing the user experience interface UI/UX strategy, UI requirements, converting findings into UI designs.",
+        "Interact with other developers and end users to design and implement new features throughout the framework.",
+        "Created animation effects during the data load.",
+        "Managing github requests and version control of the application and Fixed bugs and provided support services for the application.",
+        "Created multiple form for user and performed client-side validations using JavaScript.",
+        "Used Google analytics reports, optimized the page load time for the pages that had heavy traffic and improvised those pages using CSS."
+      ]
+    },
+    {
+      "companyName": "Qurable",
+      "designation": "Senior UI Developer",
+      "info": "Qurable is a remote diagnostics platform for patients and doctors to interact online.",
+      "keySkills": "AngularJS, JQuery, Bootstrap, HTML5, CSS",
+      "desc": [
+        "Build the entire Qurable platform in AngularJS using Bootstrap, Flexbox, JQuery and CSS while handling cross browser / platform compatibility issues.",
+        "Converted the designs created in PSD into Actionable UI Interface and also improve server performance, improve system response time and improve existing code.",
+        "Worked in Agile/Scrum development environment with frequently changing requirements and actively participated in scrum meetings and reviews.",
+        "Integrating webRTC plugin for video and audio interactions users and ensure that development is performed as per requirements.",
+        "This application is used by hospitals and private clinic, provide different login for patient, doctor, admin and pharmacy.",
+        "Actively involved in providing the technical support of the application by troubleshooting and resolving the issues."
+      ]
+    }
+  ],
+  "myTopSkills": [
+    "HTML5",
+    "CSS",
+    "CSS Animate",
+    "Flex box",
+    "Grid",
+    "SCSS",
+    "LESS",
+    "Bootstrap",
+    "Material UI",
+    "Javascript",
+    "Jquery",
+    "Angular",
+    "ReactJS",
+    "Photoshop",
+    "JSON",
+    "Ajax",
+    "jsPDF",
+    "Axios",
+    "Figma",
+    "Ionic 3",
+    "React Router",
+    "React DOM",
+    "Responsive",
+    "SVG",
+    "Plugins",
+    "Form",
+    "Validation",
+    "Regular Expression"
+  ],
+  "contact": [
+    {
+      "fname": "carmel",
+      "lname": "francis anthony",
+      "email": "carmel@gmail.com",
+      "phone": "8904814992",
+      "comments": "dfdff",
+      "id": 1
+    },
+    {
+      "firtsName": "rajesh",
+      "lastName": "kk",
+      "email": "rajesh@gmail.com",
+      "phone": "8904814992",
+      "comments": "fdfdf",
+      "id": 2
+    },
+    {
+      "firtsName": "rajesh",
+      "lastName": "kk",
+      "email": "rajesh@gmail.com",
+      "phone": "8904814992",
+      "comments": "fdfdf",
+      "id": 3
+    },
+    {
+      "firtsName": "rajesh",
+      "lastName": "kk",
+      "email": "rajesh@gmail.com",
+      "phone": "8904814992",
+      "comments": "fdfdf",
+      "id": 4
+    },
+    {
+      "firtsName": "sam",
+      "lastName": "ss",
+      "email": "sam@gmail.com",
+      "phone": "8904814992",
+      "comments": "fdfd",
+      "id": 5
+    },
+    {
+      "firtsName": "rajesh",
+      "lastName": "ss",
+      "email": "rajesh@gmail.com",
+      "phone": "8904814992",
+      "comments": "ssfdf",
+      "id": 6
+    }
+  ]
+}

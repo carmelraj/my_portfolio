@@ -1,0 +1,342 @@
+body {
+  margin: 0;
+  // font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+  //   'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  //   sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  // font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  //   monospace;
+}
+
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+@import './scss/variable.scss';
+
+* {margin: 0; padding: 0;}
+.d-flex{
+  display: flex;
+}
+.d-flex-row{
+  flex-direction: row;
+}
+.d-flex-column{
+  flex-direction: column;
+}
+.d-flex-horz-center-align{
+  align-items: center;
+}
+.d-flex-horz-left-align{
+  align-items: flex-start;
+}
+.d-flex-grow-1{
+  flex-grow: 1;
+}
+.flex-1{
+  flex: 1;
+}
+.relative{
+  position: relative;
+}
+.section{
+  padding: 70px 50px;
+}
+.justify-content-space-between{
+  justify-content: space-between;
+}
+.justify-content-center{
+  justify-content: center;
+}
+.justify-content-end{
+  justify-content: flex-end;
+}
+.pad0{
+  padding:0 !important;
+}
+.mar0{
+  margin: 0 !important;
+}
+.pad-bottom-20{
+  padding: 0 0 20px 0  !important;
+}
+.pad-bottom-30{
+  padding: 0 0 30px 0  !important;
+}
+.pad-bottom-20{
+  padding: 0 0 20px 0  !important;
+}
+.pad-left-20{
+  padding: 0 0 0 20px;
+}
+.pad-right-30{
+  padding: 0 30px 0 0;
+}
+.mar-right-50{
+  margin-right: 50px;
+} 
+.mar-bottom-30{
+  margin-bottom: 30px;
+}
+.mar-bottom-40{
+  margin: 0 0 40px 0;
+}
+.mar-top-30{
+  margin-top: 30px;
+}
+.pad-fullcorner-30{
+  padding: 30px;
+}
+.img-responsive{
+  width: 100%;
+  object-fit: cover;
+  height: 100%;
+}
+button{
+  cursor: pointer;
+  color: $white;
+}
+button:hover,button:focus{
+  color: $background
+}
+button:disabled{
+  opacity: .5; 
+  cursor: not-allowed;
+}
+button:disabled:hover,button:disabled:focus{
+  color:$white;
+}
+.full-width{
+  width: 100% !important;
+}
+.center-align{
+  text-align: center;
+}
+.align-items-center{
+  align-items:center;
+}
+.dark-bg{
+  background: $darkBg;
+}
+.wrap{
+  flex-wrap: wrap;
+}
+.fa-star,.fa-star-half-alt{
+  color: $green;
+}
+.active{
+  color: $white;
+}
+.section{
+  padding: 70px 50px;
+}
+a,a:hover,a:active{
+  text-decoration: none;
+}
+body{
+    background: $background;
+    color: $white;
+    font-family: $fontFamily;
+    font-size: $fontSize13;
+    font-weight: $normal;
+    line-height: 18px;    
+    box-sizing: border-box;    
+}
+
+.spinner{
+  position: absolute;
+  top: 50%; left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: $fontSize20;
+  color: $green;
+  font-weight: bold;
+}
+
+input[type='text'],input[type='password'],input[type='email']{
+    width: 100%;
+    height: 30px;
+    background: $background;
+    border: 1px solid #4b5b71;
+    color: $white;
+    padding: 0 40px 0 10px;
+    box-sizing: border-box;
+    border-radius: $radius5;
+}
+
+textarea{
+  width: 100%;
+  height: 100px;
+  background: $background;
+  border: 1px solid #4b5b71;
+  color: $white;
+  padding: 15px;
+  box-sizing: border-box;
+  border-radius: $radius5;
+}
+
+.custom-select-dropdown{
+    background: $background;
+    color: $placeholder;    
+    height: 50px;
+    padding: 0 40px 0 10px;
+    width: 100%;    
+    border-radius: $radius5;
+    border-color: $border;
+}
+
+.react-date-picker{ width: 100%; color: $white;
+  input{color: $white;}
+    .react-date-picker__wrapper{
+        border: 1px solid $border !important;
+        border-radius: $radius5;
+        height: 50px;
+        width: 100%; 
+    }
+    .react-date-picker__button__icon{
+      stroke: $border; 
+    }
+}
+
+button{    
+  padding: 10px 0;
+  font-size: $fontSize16;
+  border-radius:5px;
+  background: $green;
+  color:$white;
+  outline: 0; width: 100%;
+  border: 1px solid $green;
+  color: $white; 
+    &:hover,&:focus{
+      color: $white;
+    }
+}
+
+.react-calendar{
+    button{
+      color: $black;
+    }
+    .react-calendar__tile--active,react-calendar__tile--active:enabled:hover,react-calendar__tile--active:enabled:focus{
+      background: $green !important;
+      color: $white;
+    }
+}
+
+.custom-checkbox {
+    display: block;
+    margin-bottom: 15px;
+    input {
+      padding: 0;
+      height: initial;
+      width: initial;
+      margin-bottom: 0;
+      display: none;
+      cursor: pointer;
+      &:checked {
+        + {
+          label { 
+            &:after {
+              content: '';
+              display: block;
+              position: absolute;
+              top: -1px;
+              left: 9px;
+              width: 5px;
+              height: 14px;
+              border: solid $green;
+              border-width: 0 2px 2px 0;
+              transform: rotate(45deg);
+            }
+          }
+        }
+      }
+
+    }
+    label {
+      position: relative;
+      cursor: pointer;
+      &:before {
+        content: '';
+        -webkit-appearance: none;
+        background-color: transparent;
+        border: 2px solid $green;
+        box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05), inset 0px -15px 10px -12px rgba(0, 0, 0, 0.05);
+        padding: 10px;
+        display: inline-block;
+        position: relative;
+        vertical-align: middle;
+        cursor: pointer;
+        margin-right: 5px;
+      }
+    }   
+}
+
+.Toastify__close-button{
+  width: auto;
+}
+
+h2{
+    font-size: $fontSize40;
+    padding: 0 0 100px 0;
+}
+
+.short-para{
+    padding: 0 20px;
+    word-break: break-word;
+    box-sizing: border-box;
+    width: 500px;
+    text-align: center;
+}
+
+.myProject {
+  .fadein{
+    animation: fadeIn 5s; 
+  }
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.wellcome{
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    background: $green;
+    color: $white;
+    transform: translate(-50%, -50%);
+    z-index: 999;
+    padding: 20px;
+    border-radius: 5px;
+    align-items: center;    
+    flex-direction: column;
+    justify-content: flex-start;
+    z-index: 999;
+    box-shadow: 2px 2px 13px #000;
+    figure{
+      width: 100px;
+      height: 100px;
+      border-radius: 50px;
+      overflow: hidden;
+      margin: 0 auto 30px auto;
+  }
+  .closeModal{
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    color: $white;
+  }
+  h2{
+    color: $white;
+    margin: 0 0 10px 0;
+  }
+}
+
+.download{
+  background: $blue;
+}
