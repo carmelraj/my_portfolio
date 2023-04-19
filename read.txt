@@ -42,3 +42,5 @@ Note:
 - Only user can edit it
 - Only supplier can view the tables
 - Admin has home page where only he can edit the aboutme content. Once he change the about us text it will immediatedly refect in browser.
+- In header you can searh the text if you type CUSTOMER it will show CUSTOMER names and
+  if you typed somethong else it will show search result not found.
